@@ -1,0 +1,169 @@
+.navbar {
+  background-color: #0e660e;
+  padding: 2% 10% 2% 5%;
+}
+.brand {
+  color: white;
+  font-size: 40px;
+  font-family: candara;
+  margin-right: 80px;
+  letter-spacing: 3px;
+}
+#nav-toggle-button {
+  background-color: #a8c0ae;
+}
+#active-p {
+  color: white !important;
+}
+.nav-link {
+  font-size: 22px;
+  margin-right: 40px;
+  letter-spacing: 5px;
+  color: rgba(255, 254, 254, 0.5) !important;
+}
+.nav-link:hover {
+  color: white !important;
+}
+.fa {
+  margin-right: 5px;
+}
+.hero{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.main-bg{
+  margin-top: 4%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/hero-bg.jpg);
+}
+.shop-bg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url(../images/farmers-market.jpg);
+}
+.heading {
+  text-align: center;
+  font-family: "Rakkas", cursive;
+  margin-bottom: 50px;
+}
+#hero-heading {
+  font-size: 80px;
+  margin-bottom: 0;
+}
+.hero-p {
+  display: block !important;
+  font-size: 25px;
+  font-family: "Yatra One", cursive;
+}
+
+.about-us {
+  padding: 5% 10%;
+}
+.div-content {
+  line-height: 50px;
+  text-align: justify;
+}
+.shop{
+  background-color: #dff6f6;
+}
+#shop-btn{
+  color: white;
+}
+.shop-img{
+  width: 450px;
+  height: 400px;
+}
+
+/* shop css */
+.fruit-div, .tuber-div{
+   padding: 5% 10%;
+}
+.veg-div{
+  padding: 5% 10%;
+  background-color: #c7f6fe;
+}
+.div-section{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.section-item{
+   padding: 30px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 15px 0 rgb(68 88 144 / 25%);
+  transition: all 0.3s ease-in-out;
+  width: 300px;
+  height: 450px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.item-name{
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: candara;
+  color: #0e660e;
+}
+.price{
+  display: block;
+margin-bottom: 20px;
+}
+
+/* Cart-CSS */
+.cart-bg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url(../images/shop-cart.jpg);
+}
+.cart-tab{
+  padding: 5% 10%;
+}
+
+
+footer {
+  color: #fff;
+  background-color: #362d2d;
+  padding: 8% 10% 2% 10%;
+  overflow-x: hidden;
+}
+#footer {
+  margin: 0;
+}
+.foot-links .nav-link {
+  color: #818181 !important;
+  margin-left: 0;
+  padding-left: 0;
+}
+.foot-links .nav-link:hover {
+  color: #f5f8fd !important;
+}
+.contact .nav-link {
+  color: #f5f8fd !important;
+  margin-left: 0;
+  padding-left: 0;
+}
+footer p {
+  text-align: left;
+  padding-left: 2px;
+}
+.footer-heading {
+  font-family: Signika Negative;
+  margin-bottom: 50px;
+}
+.contact .nav-link {
+  font-size: 90%;
+}
+
+.copyright {
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #f5f8fd;
+}
