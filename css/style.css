@@ -167,3 +167,36 @@ footer p {
   padding-top: 10px;
   border-top: 1px solid #f5f8fd;
 }
+
+@media (max-width: 576px) {
+  .brand{
+    font-size: 20px;
+    margin-right: 0;
+  }
+  .navbar{
+    padding: 20px;
+  }
+
+  .section-item{
+    margin-left: 0;
+  }
+
+  .cart-tab{
+    padding: 50px 5px;
+  }
+  .foot-links .nav-link{
+    letter-spacing: 0;
+    padding: 0;
+    font-size: 18px;
+    color: white !important;
+  }
+  .nav-link{
+    letter-spacing: 0;
+  }
+  .foot-links{
+    margin-bottom: 30px;
+  }
+  .footer-heading{
+    margin-bottom: 20px;
+  }
+}
