@@ -1,0 +1,36 @@
+.fruit-div, .tuber-div, .veg-div{
+   padding: 1%;
+}
+.heading{
+    margin-left: 50px;
+}
+.div-section{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.section-item{
+   padding: 30px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 15px 0 rgb(68 88 144 / 25%);
+  transition: all 0.3s ease-in-out;
+  width: 200px;
+  height: 400px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.item-name{
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: candara;
+  color: #0e660e;
+}
+.price{
+  display: block;
+font-size: 15px;
+}
+.text span{
+    margin-bottom: 3px;
+    font-weight: bold;
+}

@@ -8,9 +8,13 @@ body {
     background-color: #FAFAFA;
   }
 
-.add{
-    background: url(../img/gold-small.jpg);
+.selectd{
+    background: #8c3a3a;
     border-radius: 55px; 
+}
+.uselectd{
+  background-color: #ffdada;
+  border-radius: 55px; 
 }
 .jas-btn:hover{
     background: #ffffff!important;
@@ -30,11 +34,9 @@ color: #000000!important;
   color:#000;
 }
   aside{
-      background: #ffffff;
+      background: white;
       height: 900px;
       position: fixed!important;
-      /* height: 200px; */
-      /* left: 50%; */
       top: 0%;
       left: -50%;
       margin-left:50%;
@@ -1083,9 +1085,7 @@ border-radius: 30px;
       }
       
       .price{
-      position: absolute;
       height: 45px;
-      margin-top: 40px;
       font-family: Mulish;
       font-style: normal;
       font-weight: 800;
